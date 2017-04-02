@@ -41,7 +41,7 @@ Sea A el conjunto de los números naturales. Sea R una relación en A definida c
 Probar que es una relación de orden.
 
 ### Ejercicio 3
-Sea A el conjunto de los números naturales. Sea R una relación en el conjunto de partes de A definida como todos los pares ordenados (A; B) tales que el conjunto llamado K que tiene a los elementos 2, 7 y 9 está contenido en el complemento de la diferencia simétrica entre A y B. 
+Sea A el conjunto de los números naturales. Sea R una relación en el conjunto de partes de A definida como todos los pares ordenados (A; B) tales que el conjunto llamado K que tiene a los elementos 2, 7 y 9 está contenido en el complemento de la diferencia simétrica entre A y B.
 Probar que es una relación de equivalencia.
 
 # FUNCIONES
@@ -59,33 +59,33 @@ R no es una función porque existe al menos un elemento del conjunto de los núm
 
 ### Ejercicio 2
 Sea A el conjunto de todos los números naturales mayores o iguales a cero. Y sea B el conjunto del todos los números reales. Se define la relación R como el conjunto de todos los pares ordenados (a, b) pertencientes a AxB tales que a es igual al cuadrado de b.
-Decidir si R es función. 
+Decidir si R es función.
 
 #### Resolución
 Para todos los a pertenecientes a A, existe un único b real talque al cuadrado sea igual a "a"???
 No, si tomamos un a igual a 1, vemos que existen dos números reales tales que sus cuadrados son iguales a 1. Dichos dos números reales son el 1 y el -1. Por lo tanto, esta relación no es una función.
 
 ### Ejercicio 3
-Sea A y B dos conjuntos cuyos elementos son los números reales mayores o iguales a cero, se define la relación R como los pares ordenados pertenecientes a AxB tals que a es igual al cuadrado de b. 
+Sea A y B dos conjuntos cuyos elementos son los números reales mayores o iguales a cero, se define la relación R como los pares ordenados pertenecientes a AxB tals que a es igual al cuadrado de b.
 
 #### Resolución
 
 Veamos que esta relación sí es una función.
 
-Cómo nos damos cuenta? 
+Cómo nos damos cuenta?
 Debemos ver si R cumple con la definición de función. Para ello debemos ver que como a es igual al cuadrado de b, entonces al aplicar la raíz cuadrada en ambas partes de la igualdad, tenemos que la raíz cuadrada de a es igual a la raíz cuadrada de b al cuadrado.
 
- Cuáles son los que tales que la raíz cuadrada de su cuadrado es igual a la raíz cuadrada de a?? 
-En primer lugar debemos notar que b podría ser cualquier valor positivo o negativo, ya que si b es negatiivo o positivo su vuadrado será el mismo tenemos que tener cuidado. 
+ Cuáles son los que tales que la raíz cuadrada de su cuadrado es igual a la raíz cuadrada de a??
+En primer lugar debemos notar que b podría ser cualquier valor positivo o negativo, ya que si b es negatiivo o positivo su vuadrado será el mismo tenemos que tener cuidado.
 
-Debido a la última oración, es que se usa el módulo; es decir, que la raíz cuadrada de a es igual al módulo de b. Y si el módulo de b es igual a la raíz cuadrada de a, entonces tenemos dos posibles valores para b, raíz cuadrada negativa de a ó raíz cuadrada positiva de a. 
+Debido a la última oración, es que se usa el módulo; es decir, que la raíz cuadrada de a es igual al módulo de b. Y si el módulo de b es igual a la raíz cuadrada de a, entonces tenemos dos posibles valores para b, raíz cuadrada negativa de a ó raíz cuadrada positiva de a.
 
-Como sabemos que a pertenece a un conjunto no negativo, entonces no hace falta ver el signo de las dos posibles de b, o sea, valores de la raíz cuadrada negativa de a y raíz cuadrada positiva de a . 
+Como sabemos que a pertenece a un conjunto no negativo, entonces no hace falta ver el signo de las dos posibles de b, o sea, valores de la raíz cuadrada negativa de a y raíz cuadrada positiva de a .
 
 Entonces, recordando que b también es un cto. con valores no negativos. Por lo tanto, b es no negativo y de ésto se deduce que b es igual a la raíz cuadrada positiva de a.
 
 ### Definición
-La imagen de una función f que va desde A hasta B es el conjunto de todos los b pertenecientes a tales que existe al menos un k perteneciente a A tal que b es igual a la imagen de a. 
+La imagen de una función f que va desde A hasta B es el conjunto de todos los b pertenecientes a tales que existe al menos un k perteneciente a A tal que b es igual a la imagen de a.
 
 ##### Definición hecha por mi
 La imagen de una función f que va desde A hasta B, una relación que está incluída en AxB, es el conjunto de todos los b pertenecientes a B que están relacionados con al menos un a perteneciente al conjunto A.
@@ -97,7 +97,7 @@ Es aquella función que cumple con la siguiente implicación: si la imagen de a 
 También se puede definir con una implición equivalente llamada contrarecíproca: si a es distinto a a', entonces la imagen de a es distinta a la imagen de a'.
 
 ### Definición de función subreyectiva
-Es aquella función cuyo conjunto imagen es igual al codominio de la función en cuestión. 
+Es aquella función cuyo conjunto imagen es igual al codominio de la función en cuestión.
 
 ### Definición de función biyectiva
 Es aquella función que es inyectiva y sobreyectiva.
@@ -121,9 +121,9 @@ Es sobreyectiva? para saberlo, debemos ver si se cumple la definición de sobrey
 
 Esta pregunta puede formularse de otra forma: para todo m perteneciente al conjunto de números naturales del dominio, existe al menos un n perteneciente al conjunto de los números naturales del dominio tal que la imagen de n es m?
 
-Bueno, si tomamos al elemento 3 del codominio, veamos si existe al menos un n del dominio tal que la imagen de n es 3. Supongamos que sí existe tal n, entonces la imagen de ese n es 3. o sea, f(n) es igual  3; lo cual, según la definición de f, n al cuadrado es igual a 3. Y si estos dos valores son iguales entonces la raíz cuadrada de ambos también lo es. 
+Bueno, si tomamos al elemento 3 del codominio, veamos si existe al menos un n del dominio tal que la imagen de n es 3. Supongamos que sí existe tal n, entonces la imagen de ese n es 3. o sea, f(n) es igual  3; lo cual, según la definición de f, n al cuadrado es igual a 3. Y si estos dos valores son iguales entonces la raíz cuadrada de ambos también lo es.
 
-Como la raíz cuadrada de n al cuadrado es el módulo de n que, a su vez, es igual a n porque n es un número natural;  entonces n es igual a la raíz cuadrada de 3. Pero... n es un número natural y la raíz de 3 no lo es!! Entonces... bomba! albsurdo! O sea, es contradictorio decir que n es igual a la raíz de 3. 
+Como la raíz cuadrada de n al cuadrado es el módulo de n que, a su vez, es igual a n porque n es un número natural;  entonces n es igual a la raíz cuadrada de 3. Pero... n es un número natural y la raíz de 3 no lo es!! Entonces... bomba! albsurdo! O sea, es contradictorio decir que n es igual a la raíz de 3.
 
 Hemos entontrado un elemento del dominio que no pertenece al conjunto imagen, entonces estos conjuntos no son iguales, lo cuál indica que no se cumple la definición de función sobreyectiva, o sea, esta función no es sobreyectiva.
 
@@ -137,10 +137,10 @@ Pero como la imagen de cualquier elemento del dominio, según la definición de 
 
 Los casos serían los siguientes:
 
-1) dos pares 
+1) dos pares
 2) dos impares
-3) el primer elemento elegido par y el otro impar 
-4) el primer elemento impar y el otro par 
+3) el primer elemento elegido par y el otro impar
+4) el primer elemento impar y el otro par
 
 Si en cada caso mencionado se cumple la definición de función inyectiva, entonces podríamos concluír que la función es inyectiva. Repito, para tooodos los casos. Ya que si no se cumple para alguno, entonces quiere decir que aunque dos elementos tengan la misma imagen no implica que ambos elementos sean el mismo.
 
@@ -150,11 +150,11 @@ Caso 2. Si tomamos dos elementos impares del dominio, llamados l y k, y tenemos 
 
 Caso 3. Tomo un elemento par y otro elemento impar del dominio a los cuales llamaré u y t respectivamente. Si u es par, entonces su imagen es u-1, y si t es impar, su imagen es t+1. Como suponemos que las imagenes de u y t son iguales, entonces u-1 es igual a t+1. De esta última igualdad, al sumar 1 a ambos números deducimos que u es igual t+2.
 
-Si recordamos que t es impar entonces t es igual a 2k+1 con k natural. Y si le sumamos 2 a t, tenemos que  2k+1+2 es igual a 2k+2+1, un número impar. Pero dijimos que u es par, no impar. Entonces tenemos una contradicción que proviene de suponer que dos elementos con distinta paridad tienen igual imagen, lo cual es falso. 
+Si recordamos que t es impar entonces t es igual a 2k+1 con k natural. Y si le sumamos 2 a t, tenemos que  2k+1+2 es igual a 2k+2+1, un número impar. Pero dijimos que u es par, no impar. Entonces tenemos una contradicción que proviene de suponer que dos elementos con distinta paridad tienen igual imagen, lo cual es falso.
 
 Por lo tanto esta función no es inyectiva. Ya que, recordemos que la imagen de dos números distintos con distinta paridad) tienen distinta imagen. fin!!
 
-Veamos si es sobreyectiva. 
+Veamos si es sobreyectiva.
 
 
 Para ver si es sobreyectiva, debemos ver que para todo k perteneciente al codominio existe n perteneciente al dominio tal que f(n) es igual a k.
@@ -168,9 +168,9 @@ Veamos que, en principio, la imagen de un elemento del codominio depende de la p
 Si n perteneciente a los naturales es par, entonces la imagen me dará un número impar.
 Si n perteneciente a los naturales es impar, entonces la imagen me darpa un número par.
 
-De esto podemos conjeturar que la imagen de todos lo números pares del dominio son los números impares del codominio y que la imagen de todos lo números impares del dominio son los números pares del codominio. Y como la unión de pares e impares pertenecientes al codominio es todo el codominio, o sea, es todo el conjunto de los número naturales (ya que la imagen de 1 es 2, la imagen de 2 es 1, la imagen de 3 es 4, la imagen de 4 es 3....podemos conjeturar que la imagen es el conjunto de todos los números naturales. 
+De esto podemos conjeturar que la imagen de todos lo números pares del dominio son los números impares del codominio y que la imagen de todos lo números impares del dominio son los números pares del codominio. Y como la unión de pares e impares pertenecientes al codominio es todo el codominio, o sea, es todo el conjunto de los número naturales (ya que la imagen de 1 es 2, la imagen de 2 es 1, la imagen de 3 es 4, la imagen de 4 es 3....podemos conjeturar que la imagen es el conjunto de todos los números naturales.
 
-Vamos a probarlo. Cómo hago? 
+Vamos a probarlo. Cómo hago?
 Teniendo en cuenta la definición de dunción sobreyectiva, basta ver que la imagen es igual al codominio. Y por definición de la imagen, es lo mismo a querer ver que para todo k perteneciente al codominio existe al menos un n perteneciente al dominio tal que la imagen de n es igual a k.
 
 Si k pertenece al codominio, entonces k pertenece a la unión de los números pares e impares.
@@ -190,19 +190,19 @@ y como la unión entre los números pares e impares es igual al codominio, enton
 ##### Forma II:
 Ver si existe n del dominio tal que su imagen es k impar.
 Según la conjetura realizada anteriormente, la imagen de k impar le corresponde a algún n par, quiero ver si existe tal n.
-Entonces, si tomo n par, tomo n igual a k+1 (un número impar mas 1 es un número par), esto último es equivalente a decir que la imagen de k+1 es igual a k+1-1 (por def. de la función). Por último, lo anterior es equivalente a decir que la imagen de tal n es igal a k. 
+Entonces, si tomo n par, tomo n igual a k+1 (un número impar mas 1 es un número par), esto último es equivalente a decir que la imagen de k+1 es igual a k+1-1 (por def. de la función). Por último, lo anterior es equivalente a decir que la imagen de tal n es igal a k.
 Por lo tanto existe n del dominio tal que la imagen es k impar.
 
 Ver si axiste n del dominio tal que su iamgen es k par.
 También, según la conjetura realizada anteriormente, la imagen de k par le corresponde a algún n impar, quiero ver si existe tal n.
-Entonces, si tomo n impar, tomo n igual k-1 
+Entonces, si tomo n impar, tomo n igual k-1
 
 nota: me conviene que sea k-1 porque al aplicar def. de f tendriamos la imagen de n igual a k , como queremos. Si tomaramos k+1 , que también es impar, no tendríamos la imagen igualda a k+2 que sería cualquier k del codominio mas dos unidades. O sea, no representaria a todos los pares del codominio ya que k comienza a tomar valores naturales y el par mas pequeño sería 4 (por lo que habríamos omitido al 2, un elemento que debería estar porque es par y natural).
 
-Terminando con lo anterior, al tomar n igual a k-1 y evaluarlo en f tenemos que su imagen es k-1+1, o sea igual a k par como queríamos. 
+Terminando con lo anterior, al tomar n igual a k-1 y evaluarlo en f tenemos que su imagen es k-1+1, o sea igual a k par como queríamos.
 Port lo tanto existen n pertenecientes al dominio tales que la imagen de estos me dan todos los números k apres de codominio.
 
-Por último, repitiendo lo que escribí anteriormente, como la unión de los impares naturales y pares naturles es igual al conjunto del codominio, podemos afirmar que la función en cuestión es sobreyectiva. 
+Por último, repitiendo lo que escribí anteriormente, como la unión de los impares naturales y pares naturles es igual al conjunto del codominio, podemos afirmar que la función en cuestión es sobreyectiva.
 
 
 amo razonar!
@@ -223,7 +223,7 @@ Defino g según la negatividad y no negatividad de los n elementos del dominio. 
 
 Calcular las composiciones de f compuesta con g y g compuesta con f.
 
-Despues de hacer un razonamiento que alguna vez escribiré, me queda que gof es igual a n, para todo n natural. Y que fog es igual a n para todo n entero. 
+Despues de hacer un razonamiento que alguna vez escribiré, me queda que gof es igual a n, para todo n natural. Y que fog es igual a n para todo n entero.
 
 De aquí se realiza una operación que me dice que albas funciones parecen iguales pero en realidad son distintas ya que ambas son la función identidad de lugares distintos, o sea, de dominios y codominios distintos. También, si graficamos la función, notaremos la diferencia.
 
@@ -243,24 +243,24 @@ Veamos si es simétrica. Si cto. A está relacionado con B, entonces, por defini
 Veamos si es transitiva. Si tomo tres conjuntos A, B y C tales que A está relacionado con B y B está relacionado con C, entonces existe una función f de A en B que es biyectiva y una función g de B en C que también es biyectiva. Queremos ver que existe una biyección de A en C.
 
 
-Teniendo en cuenta lo que queremos ver, debemos prestar atención, otra vez, a la proposición de funciones biyectivas. También debemos pensar en cómo sería lo que estamos buscando ver. 
+Teniendo en cuenta lo que queremos ver, debemos prestar atención, otra vez, a la proposición de funciones biyectivas. También debemos pensar en cómo sería lo que estamos buscando ver.
 
 Como quiero una función que va de A en C, tenemos que conjeturar que la función buscada es la composición de las funciones f y g en algún orden. Dicho orden, debe elegirse teniendo en cuenta cuál es el cto. que queremos como dominio y cuál queremos como codominio.
 
  Como queremos que el dominio sea A y el codominio sea C, entonces de esto deducimos que la composición buscada empezaría a tomar elementos de A, o sea, que la composición empezaría aplicando la función f ya que ésta tiene como dominio al cto. A. Luego, la función compuesta buscada es gof.
 
- Entonces, podemos afirmar que existe la biyección (ya que la composición de biyecciones es otra biyección) llamada gof de A en C . 
+ Entonces, podemos afirmar que existe la biyección (ya que la composición de biyecciones es otra biyección) llamada gof de A en C .
 
  Por lo tanto, podemos afirmar que la relación es una relación de equivalencia.
 
 ### f)
-Ver si las siguentes relaciones son biyecciones o no lo son 
-Según la definición de relación que puse antes, 
+Ver si las siguentes relaciones son biyecciones o no lo son
+Según la definición de relación que puse antes,
 
-El cto J será igual al J igual al cto. de los naturales unidos al cero está relacionado con el conjunto O igual al cto. de los números enteros?? 
+El cto J será igual al J igual al cto. de los naturales unidos al cero está relacionado con el conjunto O igual al cto. de los números enteros??
 Existe al menos una biyección de J en O?
 
-Sí! Ya que existe al menos una función biyectiva de J en O. Por ejemplo, la función de J en O cuya f(x) es igual a x/2 para los x pares y f(x) es igual a (-x-1)*(1/2)  para los x impares.
+Sí! Ya que existe al menos una función biyectiva de J en O. Por ejemplo, la función de J en O cuya f(x) es igual a x/2 para los x pares y f(x) es igual a (-x-1)(1/2)  para los x impares.
 
 ### disgresión
 
@@ -276,17 +276,17 @@ Decir si los siguientes pares de conjuntos están relacionados o no, según la d
 #### 1)
 El cto. llamado H igual al cto. de los naturales unidos al cero está relacionado con el conjunto llamado G igual al cto. de los números enteros?
 es lo mismo que preguntarse,
-y..cuando estaban relacionados estos dos ctos. según la definición de la relación? 
-Estos ctos. están relacionados si existe al menos una biyección de H en G. 
+y..cuando estaban relacionados estos dos ctos. según la definición de la relación?
+Estos ctos. están relacionados si existe al menos una biyección de H en G.
 Existe tal biyección?
-si! y podemos nombrar una. Me refiero a la funciones f del inciso d. 
+si! y podemos nombrar una. Me refiero a la funciones f del inciso d.
 
 #### 2)
 El cto. de los reales está relacionado con el cto. (-1, 1)?
 implica que existe al menos una biyección de reales a (-1, 1)?
 Me dicen que sí, pero no sé dar ningún ejemplo (TERMINAR)
 
-#### 3) 
+#### 3)
 (-1, 1) está relacionado con (cero, 1)?
 Existe al menos un biyección de (-1, 1) a (cero, 1)?
 También me dicen que sí, pero no sé dar ningún ejemplo (TERMINAR)
@@ -294,23 +294,24 @@ También me dicen que sí, pero no sé dar ningún ejemplo (TERMINAR)
 #### 4)
 (cero, 1) está relacionado con (-1, 1)?
 existe al menos una biyección de (cero, 1) a (-1, 1)?
-También me dicen que sí,  y un ejemplo es la función g de (cero, 1) a (-1, 1) definida como 
+También me dicen que sí,  y un ejemplo es la función g de (cero, 1) a (-1, 1) definida como
 2*(x-1/2)  para todo x perteneciente al dominio.
 
 #### 5)
 el cto. de los número naturales está relacionado con los reales?
 Existe al menos una biyección de naturales a reales?
 qué quiere decir que un cto. no esté relacionado con otro, según la definición de R?
-Recordemos que A está relacionado con B si y solo si  existe al menos una biyección de A en B. 
+Recordemos que A está relacionado con B si y solo si  existe al menos una biyección de A en B.
 
-Razonemos para deducir cómo negar la doble implicación. 
+´´´
+Razonemos para deducir cómo negar la doble implicación.
 Tengamos en cuenta que la doble implicación es una conjunción de proposiciones condicionales.
 O sea, en nuestro caso, tenemos que  
 (Si A está relacionado con B, entonces existe al menos una biyección de A en B) y (Si existe al menos una biyección de A en B, entonces A está relacionado con B).
 
 Como queremos negar la bicondicionalidad. para qué? para saber qué debe suceder para que dos elementos no estén relacionados, según la definición de la relación con la que estamos tratando.
 
-Para negar la bicondicionalidad, debemos negar a la expresión equivalente escrita anteriormente. 
+Para negar la bicondicionalidad, debemos negar a la expresión equivalente escrita anteriormente.
 Al hacerlo, vemos que llegamos a la expresión que, en caso de ser verdadera, se debe cumplir una o dos de las siguientes proposiciones:
 
 
@@ -318,23 +319,23 @@ Antes de eso, recordemos como negar proposiciones con cuantificadores.
 
 Cuantificador para todo:
 
-Si digo que para todo elemento de un cto. existe su inverso, la negación es equivalente a decir que existe al menos un elemento para el cual no existe su inverso. 
+Si digo que para todo elemento de un cto. existe su inverso, la negación es equivalente a decir que existe al menos un elemento para el cual no existe su inverso.
 
 Ejemplo: si me dicen que todas las personas de mi familia tienen pelo negro, la negación es equivalente a decir que existe  al menos un integrante de mi familia que no tenga el pelo negro, que tenga el pelo de cualquier otro color.
 
 
 Cuantificador existe al menos uno:
 
-Si digo que existe al menos un número real con forma de choclo, la negación es equivalente a decir que  todos los número reales no tienen no tienen forma de choclo. 
+Si digo que existe al menos un número real con forma de choclo, la negación es equivalente a decir que  todos los número reales no tienen no tienen forma de choclo.
 
 Ejemplo: si me dicen que existe  al menos una persona en mi familia que tiene el pelo rubio, para probar que no es cierto, o sea, para negarlo, basta mostrar que todas personas de mi familia tienen el pelo negro.
-todos los número 
+todos los número
 
- Todo esto vino de querer ver que el cto. de los naturales no está relacionado con el cto. de los reales (según la definición de la relación en cuestión). Al tener en cuenta que el conjunto de los naturales está incluído pero no es igual al cto. de los reales, podemos conjeturar que puede ser inyectiva (ya que para todos los elementos distintos del dominio pueden tener distinta imagen), pero no puede ser sobreyectiva ya que la imagen de la función en cuestión puede ser a lo sumo igual al cto. de los número naturales (esto se ve porque la cantidad de elementos de la imagen jamás podria ser igual al cto. de los reales). 
+ Todo esto vino de querer ver que el cto. de los naturales no está relacionado con el cto. de los reales (según la definición de la relación en cuestión). Al tener en cuenta que el conjunto de los naturales está incluído pero no es igual al cto. de los reales, podemos conjeturar que puede ser inyectiva (ya que para todos los elementos distintos del dominio pueden tener distinta imagen), pero no puede ser sobreyectiva ya que la imagen de la función en cuestión puede ser a lo sumo igual al cto. de los número naturales (esto se ve porque la cantidad de elementos de la imagen más grande que podemos armar jamás podría ser igual al cto. de los reales).
 
  Como queremos ver que el cto. de los naturales no está relacionado con el cto. de los reales, entonces queremos que no se cumple la definición de relación. Lo que es lo mismo que querer que la doble implicación sea falsa (para los ctos. mencionados).
- Si la doble implicación es falsa, la definición de relación no se cumple? sí. Es_
-  decir, si la conjunción de condicionales es falsa (lo que me hace pensar que entonces no ocurren las dos cosas a la vez). luego de aquí me quedan dos proposiciones.
+ Si la doble implicación es falsa, la definición de relación no se cumple? no.
+
 
  Disgresión:
 
@@ -343,9 +344,9 @@ todos los número
  Si analizo la definición de relación, veo que me si dos elementos están relacionados, entonces existe biyección  y si existe biyección entre dos elementos, dichos elementos están relacionados.
 
 Para probar que dos elementos no están relacionados, qué tengo que hacer?
-Debo probar que no se cumple la doble implicación, lo que es lo mismo que probar la veracidad de solo una de las implicaciones o probar que ninguna de las formulas ó prbar que ninguna de las implicaciones es verdadera.
+Debo probar que no se cumple la doble implicación, lo que es lo mismo que probar la veracidad de solo una de las implicaciones o probar que ninguna de las formulas es verdadera.
 
-O sea, debo ver que es verdadero que ARB implique existencia de biyección ó que es verdadera 
+O sea, debo ver que es verdadero que ARB implique existencia de biyección ó que es verdadera
 la existencia de biyección implique ARB   ó ver que ninguna de las formulas es verdadera.
 Esto me indicaría que la bicondicionalidad no se cumple. Por lo tanto los ctos. no estarían relacionados.
 
@@ -358,32 +359,56 @@ que ARB y que no exista biyección de A en B
 ##### formula2
 que exista tal biyección y que A no esté relacionado con B
 
-nota: decir que "dos elementos están relacionados" es lo mismo que decir que existe el par ordenado (N, R) 
+
+
+
+
+
+
+
+
+
+
+nota: decir que "dos elementos están relacionados" es lo mismo que decir que existe el par ordenado (N, R)
 
 Entonces, probar que los conjuntos mencionados no están relacionados, se reduce a probar que alguna de las fórmulas dadas sea verdadera, o lo que es lo mismo, que la negación de alguna es falsa.
 
 cuál pruebo? cómo lo hago?
-EN primer lugar, debemos notar que queremos probar conjunciones; y, para que dichas conjunciones sean verdaderas, debo ver que las proposiciones que componen dichas conjunciones son verdaderas. 
+EN primer lugar, debemos notar que queremos probar conjunciones; y, para que dichas conjunciones sean verdaderas, debo ver que las proposiciones que componen dichas conjunciones son verdaderas.
 
 Con respecto a la primer fórmula, debo probar que si ambas proposiciones son verdaderas entonces llegamos a expresiones equivalentes verdaderas.
 
-Ecordemos que queremos probar que N no está relacionado con R, o sea que todas las funciones de N en R, ninguna es biyectiva.
+REcordemos que queremos probar que N no está relacionado con R, o sea que todas las funciones de N en R, ninguna es biyectiva.
 
-Entonces si existe el par ordenado (N, R) y no existe función biyectiva de N en R, quiere decir que no existe función de N en R que sea inyectiva y sobreyectiva a la vez. Notemos que tenemos otra conjunción. Pero en este caso ésta está negada. Por ello, decir que no existe biyección de N en R, es equivalente a decir que no existe función de N en R tal que no es inyectiva o no es sobreyectiva lo que es una disyunción inclusiva y es la negaciòn de la conjunción (función inyectiva y sobreyectiva).
+Entonces si existe el par ordenado (N, R) y no existe función biyectiva de N en R, quiere decir que no existe función de N en R que sea inyectiva y sobreyectiva a la vez. Notemos que tenemos otra conjunción. Pero en este caso ésta está negada. Por ello, decir que no existe biyección de N en R, es equivalente a decir que no existe función de N en R tal que función inyectiva y sobreyectiva lo es lo mismo que decir que todas las funciones de N en R son no inyectivas o son no sobreyectivas lo que es una disyunción inclusiva.
 
-Como dije, debo ver que es verdad que todas las funciones de  N en R son no inyectivas o no sobreyectivas, necesito ver que se cumple alguno de los siguientes casos:
+Como dije, debo ver que es verdad que todas las funciones de  N en R son no inyectivas o no sobreyectivas.
 
-mi conjetura dice que todas las funciones de N en R no son biyectivas, o sea, son n inyectivas o no sobreyectivas.
-PAra probar que la conjetura es cierta para tosdas las funciones de N en R, debo ver 
-caso1 
-so con ambas proposiciones verdaderas, o sea, probar que todas las funciones de N en R son no inyectivas y no sobreyectivas.
-caso2
-con una proposición verdadera, o sea, para ver lo que queremos me basta con que una de las proposiciones de la disyunción mecionada es verdadera. Es decir, me basta con ver que 
-subcaso 2.1
-Todas las funciones de N en R son no inyectivas
-Para que la negación de la biyección sea verdadera, basta ver que solo una de las proposiciones es verdadera. Veamos que es cierto que existe una función inyectiva y, a su vez, no sobreyectiva, suponiendo que sí existe una biyección de N en R.
-(Aunque también podríamos ver que existe una función no inyectiva y no sobreyectiva)
+Como estamos tratando con una disyunción inclusiva, entonces para que dicha disyunción sea verdadera me basta con que sea verdadera alguna de las siguientes proposiciones compuestas:
 
+##### proposición compuesta 1
+Todas las funciones de N en R no son inyectivas ni sobreyectivas.
+##### proposición compuesta 2
+Todas las funciones de N en R son inyectivas y no son sobreyectivas.
+##### proposición compuesta 3
+Todas las funciones de N en R son no inyectivas y son sobreyectivas.
 
+Acabo de declarar cuales serìan los posibles casos para que la disyunción nombrada sea verdadera.
 
+la ultima proposiciòn me parece una pelotudez tremenda, algo está mal.
+´´´
+Voy a poner la resolución del profesor. Pero para mi hay otra forma de resolverlo. Ahora no me queda tiempo para seguir pensando. Tengo que seguir con otra cosa. PEro ya volveré problema, te resolveré.
 
+El profesor usó otros datos para poder resolverlo facilmente, pero ¿Qué pasa si tales datos no los tengo? ¿No sería mejor poder deducir la solución del problema sin tener esos datos a mano? Eso es lo quiero hacer, y por falta de tiempo, no lo haré ahora. PEro  como dije, lo haré el el futuro.
+
+Solución: Como sabemos que el conjunto  de los reales está relacionado con el intervalo abierto desde el cero al uno, y también sabemos que la relación es simétrica por ser una relación de equivalencia, podemos decir que el intervalo abierto desde el cero al uno está relacionado con el conjunto de los números reales.
+
+Entonces, si conseguimos probar que el conjunto de los números naturales está relacionado con el intervalo abierto desde el cero al uno, por tratarse de una relación transitiva por ser una relación de equivalencia, podríamos afirmar que el conjunto de los números naturales está relacionado con el conjunto de los números reales.
+
+Para conseguir probarlo, supongamos que existe al menos una función biyectiva desde los naturales al intervalo abierto mencionado.
+
+Suponer que es biyectiva es suponer que es inyectiva y sobreyectiva, veamos primero que es sobreyectiva
+
+(TERMINAR)
+
+Durante el desarrollo llegamos a una igualdad falsa, a una contradicción. Entonces, al no ser sobreyectiva vemos que no es biyectiva y , por ende, fué un error haber supuesto que existe al menos una función biyectiva de los naturales al intervalo abierto del cero al uno. Por lo tanto, todas las funciones de los naturales al intervalo abierto no son biyectivas.
