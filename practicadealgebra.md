@@ -330,22 +330,57 @@ Si digo que existe al menos un número real con forma de choclo, la negación es
 Ejemplo: si me dicen que existe  al menos una persona en mi familia que tiene el pelo rubio, para probar que no es cierto, o sea, para negarlo, basta mostrar que todas personas de mi familia tienen el pelo negro.
 todos los número 
 
-Bueno, ahora sigamos con las proposiciones que dije que iba nombrar. Aquellas que deben ser verdaderas para que la doble implicación sea falsa, o sea, para que no se cumpla la definición de la relación en cuestión, es decir,  para que dos ctos. no estén relacionados.
-
-##### prop.1
-A está relacionado con B y todas las funciones de A en B no son biyectivas.
-
-##### prop. 2
-Existe al menos una biyección de A en B y A no está relacionado con B.
-
-mmmmm no, me parece que está mal. Si bien la negación de la bicondición  es la disyunción prop.1 o prop.2, como toda disyunción, ambas proposiciones pueden ser verdaderas. Pero me parece falso decir que ambas pueden ser verdaderas. 
-No será que estoy tratando con una disyunción exclusiva? no sé...
-cómo diferenciar si esta es una disyunción exclusiva (disyunción no inclusiva) o no exclusiva (disyunción inclusiva)????
-Con tablas de verdad?
-Debería hacer la tabla de verdad? tendría que ser una tautología para poder afirmar que ...nada!
-Qué estoy diciendo. Las tablas de verdad solo me dicen si un razonamiento está bien hecho al tener en cuenta los valores de verdad qeu pueden tener las proposiciones incluídas las combinaciones de éstos.
- mmmmmm
  Todo esto vino de querer ver que el cto. de los naturales no está relacionado con el cto. de los reales (según la definición de la relación en cuestión). Al tener en cuenta que el conjunto de los naturales está incluído pero no es igual al cto. de los reales, podemos conjeturar que puede ser inyectiva (ya que para todos los elementos distintos del dominio pueden tener distinta imagen), pero no puede ser sobreyectiva ya que la imagen de la función en cuestión puede ser a lo sumo igual al cto. de los número naturales (esto se ve porque la cantidad de elementos de la imagen jamás podria ser igual al cto. de los reales). 
 
- Como queremos que 
+ Como queremos ver que el cto. de los naturales no está relacionado con el cto. de los reales, entonces queremos que no se cumple la definición de relación. Lo que es lo mismo que querer que la doble implicación sea falsa (para los ctos. mencionados).
+ Si la doble implicación es falsa, la definición de relación no se cumple? sí. Es_
+  decir, si la conjunción de condicionales es falsa (lo que me hace pensar que entonces no ocurren las dos cosas a la vez). luego de aquí me quedan dos proposiciones.
+
+ Disgresión:
+
+ En realidad, la definición de relación nos habla de suposiciones, suponer que pasan ciertas cosas que al ser verderas implican otras cosas y al ser falsas, de deduce cualquier cosa verdadera o falsa.
+
+ Si analizo la definición de relación, veo que me si dos elementos están relacionados, entonces existe biyección  y si existe biyección entre dos elementos, dichos elementos están relacionados.
+
+Para probar que dos elementos no están relacionados, qué tengo que hacer?
+Debo probar que no se cumple la doble implicación, lo que es lo mismo que probar la veracidad de solo una de las implicaciones o probar que ninguna de las formulas ó prbar que ninguna de las implicaciones es verdadera.
+
+O sea, debo ver que es verdadero que ARB implique existencia de biyección ó que es verdadera 
+la existencia de biyección implique ARB   ó ver que ninguna de las formulas es verdadera.
+Esto me indicaría que la bicondicionalidad no se cumple. Por lo tanto los ctos. no estarían relacionados.
+
+Y, según reglas lógicas, probar lo anterior es lo mismo que probar la veracidad de solo alguna de las siguiente fórmulas (proposiciones compuestas) y que tratamos con una disyunción exclusiva (ya que el hecho de que ambas sean verdaderas, implica una contradicción):
+
+
+##### formula1
+que ARB y que no exista biyección de A en B
+
+##### formula2
+que exista tal biyección y que A no esté relacionado con B
+
+nota: decir que "dos elementos están relacionados" es lo mismo que decir que existe el par ordenado (N, R) 
+
+Entonces, probar que los conjuntos mencionados no están relacionados, se reduce a probar que alguna de las fórmulas dadas sea verdadera, o lo que es lo mismo, que la negación de alguna es falsa.
+
+cuál pruebo? cómo lo hago?
+EN primer lugar, debemos notar que queremos probar conjunciones; y, para que dichas conjunciones sean verdaderas, debo ver que las proposiciones que componen dichas conjunciones son verdaderas. 
+
+Con respecto a la primer fórmula, debo probar que si ambas proposiciones son verdaderas entonces llegamos a expresiones equivalentes verdaderas.
+
+Ecordemos que queremos probar que N no está relacionado con R, o sea que todas las funciones de N en R, ninguna es biyectiva.
+
+Entonces si existe el par ordenado (N, R) y no existe función biyectiva de N en R, quiere decir que no existe función de N en R que sea inyectiva y sobreyectiva a la vez. notemos que tenemos otra conjunción, pero en este caso ésta está negada. Por ello, decir que no existe biyección de N en R, (((((()))) lo mismo que negar la conjunción (función inyectiva y sobreyectiva), o sea, que debo ver que la función no es inyectiva o no es sobreyectiva (disyunción inclusiva), ya que existen funciones de N a R que hacen verdaderas a ambas proposiciones).)))))))
+
+Como dije, debo ver que es verdad que la función no es inyectiva o no es sobreyectiva. Para ver esto, tenemos que ver que se cumple al menos uno de los siguientes casos:
+
+caso con ambas proposiciones verdaderas, o sea, probar que existe 
+una función de N en R no es inyectiva y no es sobreyectiva.
+
+caso con una proposición verdadera, o sea, probar que 
+
+Para que la negación de la biyección sea verdadera, basta ver que solo una de las proposiciones es verdadera. Veamos que es cierto que existe una función inyectiva y, a su vez, no sobreyectiva, suponiendo que sí existe una biyección de N en R.
+(Aunque también podríamos ver que existe una función no inyectiva y no sobreyectiva)
+
+
+
 
