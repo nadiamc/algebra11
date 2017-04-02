@@ -199,7 +199,7 @@ Entonces, si tomo n impar, tomo n igual k-1
 
 nota: me conviene que sea k-1 porque al aplicar def. de f tendriamos la imagen de n igual a k , como queremos. Si tomaramos k+1 , que también es impar, no tendríamos la imagen igualda a k+2 que sería cualquier k del codominio mas dos unidades. O sea, no representaria a todos los pares del codominio ya que k comienza a tomar valores naturales y el par mas pequeño sería 4 (por lo que habríamos omitido al 2, un elemento que debería estar porque es par y natural).
 
-Terminando con lo anterior, al tomar n igual a k-1 y evaluarlo en f tenemos que su magen es k-1+1, o sea igual a k par como queríamos. 
+Terminando con lo anterior, al tomar n igual a k-1 y evaluarlo en f tenemos que su imagen es k-1+1, o sea igual a k par como queríamos. 
 Port lo tanto existen n pertenecientes al dominio tales que la imagen de estos me dan todos los números k apres de codominio.
 
 Por último, repitiendo lo que escribí anteriormente, como la unión de los impares naturales y pares naturles es igual al conjunto del codominio, podemos afirmar que la función en cuestión es sobreyectiva. 
@@ -207,4 +207,145 @@ Por último, repitiendo lo que escribí anteriormente, como la unión de los imp
 
 amo razonar!
 
+
+Finalmente afirmamos que esta función es biyectiva porque es sobreyectiva e inyectiva.
+
+
+### d)
+
+sea f con dominio igual al cto. de los número naturales unión el cero y codominio igual al cto. de los enteros.
+
+Defino f según la paridad de los elementos n del dominio. la imagen de los n pares será la mitad de n y la imagen de los n imapares será el negativo de la mitad de n+1.
+
+Sea g una función con dominio igual al cto. de números enteros y codominio igual al cto. de los números naturales.
+
+Defino g según la negatividad y no negatividad de los n elementos del dominio. Así, los elementos negativos del dominio tienen la imagen de el negativo del doble de n más una unidad, o sea, -2*n-1 que es igual a -(2*n+1). Y la imagen de los n no negativos es igual a el doble de n.
+
+Calcular las composiciones de f compuesta con g y g compuesta con f.
+
+Despues de hacer un razonamiento que alguna vez escribiré, me queda que gof es igual a n, para todo n natural. Y que fog es igual a n para todo n entero. 
+
+De aquí se realiza una operación que me dice que albas funciones parecen iguales pero en realidad son distintas ya que ambas son la función identidad de lugares distintos, o sea, de dominios y codominios distintos. También, si graficamos la función, notaremos la diferencia.
+
+## Proposición
+Sea f de A en B, será una función biyectiva si y solo si  existe una función g de B en A. tal que fog es igual a la identidad de B  y gof es igual a la identidad de A. En dicho caso, g es única y se nota como f^(-1), y se llama la inversa de f.
+
+### e)
+Defino una relación.
+Sea A un cto. decimos que A está relacionado con B si y solo si existe biyección (una función biyectiva llamada f) de A en B. Es decir dos conjuntos están relacionados si y solo si existe una función biyectiva que tenga dominio A y codominio B.
+
+Probar que la relación es una relación de equivalencia.
+
+Veamos que es reflexiva. Si tomo cualquier conjunto A, notemos que para cada uno de ellos existe una función llamada identidad de A que tiene dominio en A y codominio en A y esta función es biyectiva; entonces, la relación es reflexiva.
+
+Veamos si es simétrica. Si cto. A está relacionado con B, entonces, por definición de la relación, existe una función biyectiva de A en B. Además, según la proposición dada, por ser f una función biyectiva existe una función inversa llamada f^(-1) con dominio B y codominio A  tal que fog es igual a la identidad de B  y gof es igual a la identidad de A y por ello, también es biyectiva. De esto último se deduce que el cto. B está relacionado con A. Por lo tanto, la relación también es simétrica.
+
+Veamos si es transitiva. Si tomo tres conjuntos A, B y C tales que A está relacionado con B y B está relacionado con C, entonces existe una función f de A en B que es biyectiva y una función g de B en C que también es biyectiva. Queremos ver que existe una biyección de A en C.
+
+
+Teniendo en cuenta lo que queremos ver, debemos prestar atención, otra vez, a la proposición de funciones biyectivas. También debemos pensar en cómo sería lo que estamos buscando ver. 
+
+Como quiero una función que va de A en C, tenemos que conjeturar que la función buscada es la composición de las funciones f y g en algún orden. Dicho orden, debe elegirse teniendo en cuenta cuál es el cto. que queremos como dominio y cuál queremos como codominio.
+
+ Como queremos que el dominio sea A y el codominio sea C, entonces de esto deducimos que la composición buscada empezaría a tomar elementos de A, o sea, que la composición empezaría aplicando la función f ya que ésta tiene como dominio al cto. A. Luego, la función compuesta buscada es gof.
+
+ Entonces, podemos afirmar que existe la biyección (ya que la composición de biyecciones es otra biyección) llamada gof de A en C . 
+
+ Por lo tanto, podemos afirmar que la relación es una relación de equivalencia.
+
+### f)
+Ver si las siguentes relaciones son biyecciones o no lo son 
+Según la definición de relación que puse antes, 
+
+El cto J será igual al J igual al cto. de los naturales unidos al cero está relacionado con el conjunto O igual al cto. de los números enteros?? 
+Existe al menos una biyección de J en O?
+
+Sí! Ya que existe al menos una función biyectiva de J en O. Por ejemplo, la función de J en O cuya f(x) es igual a x/2 para los x pares y f(x) es igual a (-x-1)*(1/2)  para los x impares.
+
+### disgresión
+
+Hay un tema con el maldito vocabulario.
+Se usa el término biyección para referirse a que una función es biyectiva.
+Se dice biyección a la función biyectiva.
+En el ejercicio anterior, cuando probamos que la relación era transitiva, podríamos haberlo escrito así: si A está relacionado con B, entonces f de A en B es biyección. O sea, que la función f de A en B es una función biyectiva.
+
+
+### ejercicios
+Decir si los siguientes pares de conjuntos están relacionados o no, según la definción de relación que dice que dos ctos. A y B están relacionados si y solo si existe al menos una biyección de A en B. o sea, si existe una función de A en B que es biyectiva.
+
+#### 1)
+El cto. llamado H igual al cto. de los naturales unidos al cero está relacionado con el conjunto llamado G igual al cto. de los números enteros?
+es lo mismo que preguntarse,
+y..cuando estaban relacionados estos dos ctos. según la definición de la relación? 
+Estos ctos. están relacionados si existe al menos una biyección de H en G. 
+Existe tal biyección?
+si! y podemos nombrar una. Me refiero a la funciones f del inciso d. 
+
+#### 2)
+El cto. de los reales está relacionado con el cto. (-1, 1)?
+implica que existe al menos una biyección de reales a (-1, 1)?
+Me dicen que sí, pero no sé dar ningún ejemplo (TERMINAR)
+
+#### 3) 
+(-1, 1) está relacionado con (cero, 1)?
+Existe al menos un biyección de (-1, 1) a (cero, 1)?
+También me dicen que sí, pero no sé dar ningún ejemplo (TERMINAR)
+
+#### 4)
+(cero, 1) está relacionado con (-1, 1)?
+existe al menos una biyección de (cero, 1) a (-1, 1)?
+También me dicen que sí,  y un ejemplo es la función g de (cero, 1) a (-1, 1) definida como 
+2*(x-1/2)  para todo x perteneciente al dominio.
+
+#### 5)
+el cto. de los número naturales está relacionado con los reales?
+Existe al menos una biyección de naturales a reales?
+qué quiere decir que un cto. no esté relacionado con otro, según la definición de R?
+Recordemos que A está relacionado con B si y solo si  existe al menos una biyección de A en B. 
+
+Razonemos para deducir cómo negar la doble implicación. 
+Tengamos en cuenta que la doble implicación es una conjunción de proposiciones condicionales.
+O sea, en nuestro caso, tenemos que  
+(Si A está relacionado con B, entonces existe al menos una biyección de A en B) y (Si existe al menos una biyección de A en B, entonces A está relacionado con B).
+
+Como queremos negar la bicondicionalidad. para qué? para saber qué debe suceder para que dos elementos no estén relacionados, según la definición de la relación con la que estamos tratando.
+
+Para negar la bicondicionalidad, debemos negar a la expresión equivalente escrita anteriormente. 
+Al hacerlo, vemos que llegamos a la expresión que, en caso de ser verdadera, se debe cumplir una o dos de las siguientes proposiciones:
+
+
+Antes de eso, recordemos como negar proposiciones con cuantificadores.
+
+Cuantificador para todo:
+
+Si digo que para todo elemento de un cto. existe su inverso, la negación es equivalente a decir que existe al menos un elemento para el cual no existe su inverso. 
+
+Ejemplo: si me dicen que todas las personas de mi familia tienen pelo negro, la negación es equivalente a decir que existe  al menos un integrante de mi familia que no tenga el pelo negro, que tenga el pelo de cualquier otro color.
+
+
+Cuantificador existe al menos uno:
+
+Si digo que existe al menos un número real con forma de choclo, la negación es equivalente a decir que  todos los número reales no tienen no tienen forma de choclo. 
+
+Ejemplo: si me dicen que existe  al menos una persona en mi familia que tiene el pelo rubio, para probar que no es cierto, o sea, para negarlo, basta mostrar que todas personas de mi familia tienen el pelo negro.
+todos los número 
+
+Bueno, ahora sigamos con las proposiciones que dije que iba nombrar. Aquellas que deben ser verdaderas para que la doble implicación sea falsa, o sea, para que no se cumpla la definición de la relación en cuestión, es decir,  para que dos ctos. no estén relacionados.
+
+##### prop.1
+A está relacionado con B y todas las funciones de A en B no son biyectivas.
+
+##### prop. 2
+Existe al menos una biyección de A en B y A no está relacionado con B.
+
+mmmmm no, me parece que está mal. Si bien la negación de la bicondición  es la disyunción prop.1 o prop.2, como toda disyunción, ambas proposiciones pueden ser verdaderas. Pero me parece falso decir que ambas pueden ser verdaderas. 
+No será que estoy tratando con una disyunción exclusiva? no sé...
+cómo diferenciar si esta es una disyunción exclusiva (disyunción no inclusiva) o no exclusiva (disyunción inclusiva)????
+Con tablas de verdad?
+Debería hacer la tabla de verdad? tendría que ser una tautología para poder afirmar que ...nada!
+Qué estoy diciendo. Las tablas de verdad solo me dicen si un razonamiento está bien hecho al tener en cuenta los valores de verdad qeu pueden tener las proposiciones incluídas las combinaciones de éstos.
+ mmmmmm
+ Todo esto vino de querer ver que el cto. de los naturales no está relacionado con el cto. de los reales (según la definición de la relación en cuestión). Al tener en cuenta que el conjunto de los naturales está incluído pero no es igual al cto. de los reales, podemos conjeturar que puede ser inyectiva (ya que para todos los elementos distintos del dominio pueden tener distinta imagen), pero no puede ser sobreyectiva ya que la imagen de la función en cuestión puede ser a lo sumo igual al cto. de los número naturales (esto se ve porque la cantidad de elementos de la imagen jamás podria ser igual al cto. de los reales). 
+
+ Como queremos que 
 
