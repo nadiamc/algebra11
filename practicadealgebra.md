@@ -369,15 +369,18 @@ Con respecto a la primer fórmula, debo probar que si ambas proposiciones son ve
 
 Ecordemos que queremos probar que N no está relacionado con R, o sea que todas las funciones de N en R, ninguna es biyectiva.
 
-Entonces si existe el par ordenado (N, R) y no existe función biyectiva de N en R, quiere decir que no existe función de N en R que sea inyectiva y sobreyectiva a la vez. notemos que tenemos otra conjunción, pero en este caso ésta está negada. Por ello, decir que no existe biyección de N en R, (((((()))) lo mismo que negar la conjunción (función inyectiva y sobreyectiva), o sea, que debo ver que la función no es inyectiva o no es sobreyectiva (disyunción inclusiva), ya que existen funciones de N a R que hacen verdaderas a ambas proposiciones).)))))))
+Entonces si existe el par ordenado (N, R) y no existe función biyectiva de N en R, quiere decir que no existe función de N en R que sea inyectiva y sobreyectiva a la vez. Notemos que tenemos otra conjunción. Pero en este caso ésta está negada. Por ello, decir que no existe biyección de N en R, es equivalente a decir que no existe función de N en R tal que no es inyectiva o no es sobreyectiva lo que es una disyunción inclusiva y es la negaciòn de la conjunción (función inyectiva y sobreyectiva).
 
-Como dije, debo ver que es verdad que la función no es inyectiva o no es sobreyectiva. Para ver esto, tenemos que ver que se cumple al menos uno de los siguientes casos:
+Como dije, debo ver que es verdad que todas las funciones de  N en R son no inyectivas o no sobreyectivas, necesito ver que se cumple alguno de los siguientes casos:
 
-caso con ambas proposiciones verdaderas, o sea, probar que existe 
-una función de N en R no es inyectiva y no es sobreyectiva.
-
-caso con una proposición verdadera, o sea, probar que 
-
+mi conjetura dice que todas las funciones de N en R no son biyectivas, o sea, son n inyectivas o no sobreyectivas.
+PAra probar que la conjetura es cierta para tosdas las funciones de N en R, debo ver 
+caso1 
+so con ambas proposiciones verdaderas, o sea, probar que todas las funciones de N en R son no inyectivas y no sobreyectivas.
+caso2
+con una proposición verdadera, o sea, para ver lo que queremos me basta con que una de las proposiciones de la disyunción mecionada es verdadera. Es decir, me basta con ver que 
+subcaso 2.1
+Todas las funciones de N en R son no inyectivas
 Para que la negación de la biyección sea verdadera, basta ver que solo una de las proposiciones es verdadera. Veamos que es cierto que existe una función inyectiva y, a su vez, no sobreyectiva, suponiendo que sí existe una biyección de N en R.
 (Aunque también podríamos ver que existe una función no inyectiva y no sobreyectiva)
 
