@@ -412,3 +412,29 @@ Suponer que es biyectiva es suponer que es inyectiva y sobreyectiva, veamos prim
 (TERMINAR)
 
 Durante el desarrollo llegamos a una igualdad falsa, a una contradicción. Entonces, al no ser sobreyectiva vemos que no es biyectiva y , por ende, fué un error haber supuesto que existe al menos una función biyectiva de los naturales al intervalo abierto del cero al uno. Por lo tanto, todas las funciones de los naturales al intervalo abierto no son biyectivas.
+
+
+# INDUCCIòN
+
+### ejercicios
+
+### ejercicio1
+
+TEnemos que 1 al cubo es igual a 1 al cuadrado
+Tenemos que 1 al cubo más dos al cubo es igual a 9 igual a 3 al cuadrado
+Tenemos que 1 al cubo más dos al cubo más 3 al cubo es igual a 36 igual a 6 al cuadrado.
+Tenemos, tenemos tenemos tenemos
+
+Entonces, realizamos la conjetura que dice que si sumo 1 al cubo más 2 al cubo más todos los demás naturales mayores a dos, hasta llegar a n al cubo, podemos decir que es igual a la suma de todos esos n elevados al cuadrado.
+
+Lo que acabamos de hacer es una conjetura, o sea, no se algo que se puede tomar como verdadero para todo n. Para afirmar que la conjetura es válida para todos los números naturales, debo probarlo.
+
+Para probarlo, usaremos el principio de inducción.
+
+Este princio me dice que cualquien conjunto inductivo cumple con dos condiciones.
+
+Nosotros tenemos una conjetura que puede llamarse proposición y ésta conjetura parece ser cierta solo para los número naturales porque la afirmamos sobre ellos.. Queremos ver si dicha proposición es verdadera para cada uno de los elementos pertenecientes al conjunto de los números naturales. Entonces, queremos ver si es cierta para el conjunto inductivo de los números naturales.
+
+Como queremos ver si es cierta para un conjunto inductivo, queremos que las condiciones que cumple un cojunto inductivo las cumpla el conjunto de valores que hacen verdera tal proposición.
+
+En otras palabras, nosotros tenemos una conjetura, queremos ver si el conjunto de valores que hacen verdadera la proposición es igual al conjunto de los números naturales, un conjunto inductivo. y por ser un conjunto inductivo, éste cumple dos condiciones, entonces en vez de probar número por número para ver si con cada uno de ellos la proposición es verdera,  tenemos la estrategia de ver si los valores que hacer verdadera la proposición cumplen con la condición de conjunto inductivo.
