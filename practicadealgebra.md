@@ -420,7 +420,7 @@ Durante el desarrollo llegamos a una igualdad falsa, a una contradicción. Enton
 
 ### ejercicio1
 
-TEnemos que 1 al cubo es igual a 1 al cuadrado
+Tenemos que 1 al cubo es igual a 1 al cuadrado
 Tenemos que 1 al cubo más dos al cubo es igual a 9 igual a 3 al cuadrado
 Tenemos que 1 al cubo más dos al cubo más 3 al cubo es igual a 36 igual a 6 al cuadrado.
 Tenemos, tenemos tenemos tenemos
@@ -431,10 +431,60 @@ Lo que acabamos de hacer es una conjetura, o sea, no se algo que se puede tomar 
 
 Para probarlo, usaremos el principio de inducción.
 
-Este princio me dice que cualquien conjunto inductivo cumple con dos condiciones.
+Este principio me dice que cualquier conjunto inductivo cumple con dos condiciones.
 
 Nosotros tenemos una conjetura que puede llamarse proposición y ésta conjetura parece ser cierta solo para los número naturales porque la afirmamos sobre ellos.. Queremos ver si dicha proposición es verdadera para cada uno de los elementos pertenecientes al conjunto de los números naturales. Entonces, queremos ver si es cierta para el conjunto inductivo de los números naturales.
 
 Como queremos ver si es cierta para un conjunto inductivo, queremos que las condiciones que cumple un cojunto inductivo las cumpla el conjunto de valores que hacen verdera tal proposición.
 
 En otras palabras, nosotros tenemos una conjetura, queremos ver si el conjunto de valores que hacen verdadera la proposición es igual al conjunto de los números naturales, un conjunto inductivo. y por ser un conjunto inductivo, éste cumple dos condiciones, entonces en vez de probar número por número para ver si con cada uno de ellos la proposición es verdera,  tenemos la estrategia de ver si los valores que hacer verdadera la proposición cumplen con la condición de conjunto inductivo.
+
+Dichas condiciones son:
+##### 1)
+Que el elemento 1 sea parte del conjunto que hace verdera a la proposición. O sea, que 1  haga a la proposición verdadera.
+
+##### 2)
+Que del hecho de que la proposición sea verdaera para algún elemento k natural se deduzca que que la proposición es verdera para el siguiente, o sea, k+1.
+
+
+Sigamos con el ejercicio. Porque queremos ver si el cto. de elementos que hacen verdadera a la proposición es el cto. de los naturales, un cto. inductivo, debemos ver si las condiciones que caracterizan a un conjunto inductivo son son cumplidas por el cto. de elementos que hacen verdadera la paroposición.
+
+Condición 1, llamado caso base.
+Veamos que la proposición evaluada con n igual a 1 es verdadera.
+
+Condición 2, llamado caso inductivo.
+Veamos si al suponer que la proposición es verdera con un elemento k natural se deduce que es verdadera para k+1 natural.
+
+Si suponemos que es cierto que p(n) es verdadera para k natural entonces es cierto que 1 al cubo más 2 al cubo más todos los naturales hasta k al cubo es igual a la suma de los k elementos al cuadrado.
+
+Nosotros queremos ver que de la igualdad anterior podemos deducir que es cierto que la suma de los k+1 elementos cada uno elevados al cubo es igual a la suma de los k+1 elementos al cuadrado.
+
+Cómo vemos esto? cómo podemos razonar para solucionar este problema?
+Primero notemos que queremos probar que dos cosas son iguales, por lo tanto debemos tomar una de las partes de la igualdad y a ella transformarla en la otra parte; o sea, podemos tomar la parte derecha de la igualdad y transformarla en la parte de la izquierda ó podemos tomar la parte izquierda de la igualdad y transformarla en la parte de la derecha. Aclaro que lo haré de las dos formas.
+O bien, podemos tomar la igualdad que queremos probar y de ella llegar a otra igualdad que es verdadera o una igualdad mas  facil de probar. Lo cual también haré.
+
+
+Forma 1.
+Tomaremos la parte derecha y la tranformaremos en la parte de la izquierda.
+
+##### Disgresión
+La palabra "transformar" es utilizada para hacer notar que al ser dos cosas iguales, entonces al sufrir operaciones que no modifiquen su valor debe tomar otro aspecto pero sigue teniendo el mismo valor.
+
+En este caso, la parte derecha de la igualdad que queremos probar es la suma de k+1 elementos elevados al cuadrado. De esa expresión, debemos llegar a que es igual a la suma de uno hasta k+1 cada uno elevado al cuadrado.
+
+cómo seguimos? qué podemos hacer para poder resolver esto? qué debo pensar? qué debo preguntar?
+
+Mi recomendación para empezar es mirar fijamente la igualdad y tratemos de reconocer cosas. En este caso, notemos que tenemos una suma de k+1 elementos y esa suma es elevada al cuadrado. Creo que la preguntas serían:
+
+A qué quiero llegar? En principio, probar la igualdad. Luego, para ello, debo transformar esta expresión en la deseada.
+Cómo lo hago? Como quiero transformarla, entonces no quiero modificar su valor, por lo que necesito aplicar operaciones que no modifiquen su valor (para cualquier n).
+
+Bien, quedamos en que debo modificar la expresión sin modificar su valor. Ahora, qué operaciones aplico? cómo puedo modificar su forma sin modificar su valor para cada n?
+
+Ahora es cuando tenemos que pensar en las igualdades que conocemos, las que sabemos desarrollar; para que así, transformemos la expresión.
+
+Recordemos que tenemos una suma de k+1 elementos y esa suma está elevada al cuadrado. Qué igualdades relaciondas con elementos elevados al cuadrado conocemos? Yo me acuerdo del binomio al cuadrado, el cual es igual a un desarrollo fácil de recordar. Pero como lo que tenemos elevado al cuadrado es una suma de k+1 elementos, es necesario utilizar la propiedad asociativa de la suma y asociar los primeros k elementos como si fuese uno de los monomios que conforma al binomio que queremos desarrollar.
+
+Si a la suma de los k elementos lo llamamos S, podemos decir que la expresiòn que nos queda es la suma de S más (k+1) elevados al cuadrado. Dicha nueva expresión es igual al desarrollo s al cuadrado más s por 2 por (k+1) más (k+1) al cuadrado.
+
+Hasta ahora hemos transformado un poco la expresión sin modificar el valor que tendría en algún n natural.
