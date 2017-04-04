@@ -488,3 +488,11 @@ Recordemos que tenemos una suma de k+1 elementos y esa suma está elevada al cua
 Si a la suma de los k elementos lo llamamos S, podemos decir que la expresiòn que nos queda es la suma de S más (k+1) elevados al cuadrado. Dicha nueva expresión es igual al desarrollo s al cuadrado más s por 2 por (k+1) más (k+1) al cuadrado.
 
 Hasta ahora hemos transformado un poco la expresión sin modificar el valor que tendría en algún n natural.
+
+Recordemos que queremos llegar a que lo que obtuvimos es igual a la suma de los k+1 elementos, cada uno elevado al cubo.
+
+Qué puedo decir acerca de la expresión que logramos obtener? Observemos....
+Tèrmino por término....
+En el primer término tenemos a s que representa a la suma de los k elementos, y como s está elevado al cuadrado, entonces la suma está elevada al cuadrado. En el segundo término tenemos el doble de la suma de los k elementos multiplicados por el número (k+1) y, por último, en el tercer término tenemos al número (k+1) elevados al cuadrado. Qué podemos comentar sobre estos términos? Cómo puedo seguir transformando esta expresión en otra? Tenemos algún dato que nos puede servir? Qué datos tenemos?
+
+TEnemos el dato de la hipótesis inductiva. LA que los dice que la suma de k elementos elevada al cuadrado el igual a la suma de los k elementos donde cada elemento está elevado al cubo. Entonces podemos seguir transformando nuestra expresión reemplezando s al cuadrado por una expresión equivalente, la que mencionamos.
